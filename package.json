@@ -1,0 +1,29 @@
+{
+  "name": "playwright-ecommerce-checkout-e2e",
+  "version": "1.0.0",
+  "description": "Playwright E2E test suite for an e-commerce checkout flow, built with the Page Object Model.",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "page-object-model",
+    "typescript",
+    "ci"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
